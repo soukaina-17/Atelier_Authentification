@@ -10,7 +10,7 @@ Large programme avec 4 ateliers à réaliser mais tout à fait accessible et ne 
 -------------------------------------------------------------------------------------------------------
 Séquence 1 : GitHUB
 -------------------------------------------------------------------------------------------------------
-Objectif : Création d'un Repository GitHUB pour travailler avec son projet  
+  
 Difficulté : Très facile (~15 minutes)
 -------------------------------------------------------------------------------------------------------
 GitHUB est une plateforme en ligne utilisée pour stocker le code de son programme.

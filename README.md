@@ -5,7 +5,7 @@ Quelles sont les notions qui vont être abordées au cours de cet atelier ?
 Cet atelier a pour objectif de vous apprendre à mettre en place place votre environnement de travail dans le cadre de votre module d'apprentissage sur les systèmes d'authentification. 
 Vous allez créer votre hébergement de site, découvrir les Actions et les Secrets GitHUB pour au final mettre en service et exploiter des solutions d'authentifications.  
 Dans cet atelier sont concerné les systèmes d'authentification de base, l'authentifcation via l'utilisation de Cookies, via l'utilisation de mecanismes de Session et via les requêtes HTTP.  
-Large programme avec 4 ateliers à réaliser mais tout à fait accessible et ne nécessitant pas de base technique particulière. Juste de l'observation et de la rigueur dans votre travail.
+Large programme avec 4 ateliers à réaliser mais tout à fait accessible et ne nécessitant pas de base technique particulière. Juste de l'observation et de la rigueur dans votre travail
 
 -------------------------------------------------------------------------------------------------------
 Séquence 1 : GitHUB

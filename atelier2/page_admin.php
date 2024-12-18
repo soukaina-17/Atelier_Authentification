@@ -9,7 +9,8 @@ if (isset($_COOKIE['authToken']) && str_starts_with($_COOKIE['authToken'], 'admi
     exit();
 
 } elseif (isset($_COOKIE['authToken']) && str_starts_with($_COOKIE['authToken'], 'user_')) {
-    header('location:user.php
+    header('location:user.php');
+    exit();
 ?>
 
 <!DOCTYPE html>

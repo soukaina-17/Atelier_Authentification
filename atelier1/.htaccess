@@ -1,0 +1,5 @@
+
+AuthName "Accès protégé"
+AuthType Basic
+AuthUserFile /home/soukaina-17/www/.htpasswd
+Require valid-user

@@ -35,3 +35,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
+</head>
+<body>
+    <h1>Atelier authentification par Cookie</h1>
+    <h3>La page <a href="home.php">home.php</a> est inaccéssible tant que vous ne vous serez pas connecté avec le login 'admin' et mot de passe 'secret'</h3>
+    <h3>La page <a href="page_admin.php">page_admin.php</a> est inaccéssible tant que vous ne vous serez pas connecté avec le login 'admin' et mot de passe 'secret'</h3>
+    <form method="POST" action="">
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <button type="submit">Se connecter</button>
+    </form>
+</body>
+</html>

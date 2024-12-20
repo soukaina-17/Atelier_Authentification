@@ -2,8 +2,9 @@
 <?php
 // Démarrer la session
 session_start();
-
+//si l'utilisateur a déjà visité la page auparavant
 if (isset($_SESSION['visites'])) {
+     //donc on incrémente le compteur de visites
      $_SESSION['visites']++;
     } else {
     $_SESSION['visites'] = 1;

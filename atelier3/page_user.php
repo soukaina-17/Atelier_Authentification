@@ -6,6 +6,7 @@ session_start();
 if (isset($_SESSION['visites'])) {
      //donc on incrémente le compteur de visites
      $_SESSION['visites']++;
+     //la cas contraire, initialiser cette variable avec la valeur 1.
     } else {
     $_SESSION['visites'] = 1;
 }

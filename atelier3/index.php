@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Stocker les informations utilisateur dans la session
         $_SESSION['loggedin'] = true;
         $_SESSION['username'] = $username;
-
+        
         // Rediriger vers la page protégée
         header('Location: page_admin.php');
         exit();
@@ -30,6 +30,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Stocker les informations utilisateur dans la session
         $_SESSION['loggedin'] = true;
         $_SESSION['username'] = $username;
+            
+            // Rediriger vers la page protégée
+        header('Location: page_user.php');
+        exit();  
         $error = "Nom d'utilisateur ou mot de passe incorrect.";
     }
 }

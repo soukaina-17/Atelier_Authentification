@@ -5,6 +5,9 @@ session_start();
 // Vérifier si l'utilisateur est déjà connecté
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     header('Location: page_admin.php'); // Si l'utilisateur s'est déjà connecté alors il sera automatiquement redirigé vers la page protected.php
+    } else {
+        header('Location: page_user.php'); // Page pour utilisateur
+    }
     exit();
 }
 
@@ -22,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Rediriger vers la page protégée
         header('Location: page_admin.php');
         exit();
-    } else {
+    } elseif ($username === 'user' && $password === 'utilisateur')
         $error = "Nom d'utilisateur ou mot de passe incorrect.";
     }
 }

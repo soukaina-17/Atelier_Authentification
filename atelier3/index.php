@@ -11,6 +11,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin']=== true && $_SESSION['
         header('Location: page_user.php');
         exit();
 }
+}
 
 // Gérer le formulaire de connexion
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

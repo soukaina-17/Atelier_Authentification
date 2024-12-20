@@ -10,7 +10,6 @@ if (isset($_SESSION['visites'])) {
     } else {
     $_SESSION['visites'] = 1;
 }
-    
 
 // Vérifier si l'utilisateur s'est bienconnecté
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin']=== true && $_SESSION['username']!== 'user') {

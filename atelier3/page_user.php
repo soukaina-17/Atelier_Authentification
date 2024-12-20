@@ -3,6 +3,13 @@
 // Démarrer la session
 session_start();
 
+if (isset($_SESSION['visites'])) {
+     $_SESSION['visites']++;
+    } else {
+    $_SESSION['visites'] = 1;
+}
+    
+
 // Vérifier si l'utilisateur s'est bienconnecté
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin']=== true && $_SESSION['username']!== 'user') {
     header('Location: index.php'); // Dans le cas contraire, l'utilisateur sera redirigé vers la page de connexion

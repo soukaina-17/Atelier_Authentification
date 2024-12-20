@@ -26,6 +26,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header('Location: page_admin.php');
         exit();
     } elseif ($username === 'user' && $password === 'utilisateur')
+        {
+        // Stocker les informations utilisateur dans la session
+        $_SESSION['loggedin'] = true;
+        $_SESSION['username'] = $username;
         $error = "Nom d'utilisateur ou mot de passe incorrect.";
     }
 }
